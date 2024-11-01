@@ -5,9 +5,9 @@ def create_connection():
     try:
         connection = mysql.connector.connect(
             host='localhost',
-            database='movie_db',
+            database='movie_review_system',
             user='root',
-            password='soorya'
+            password='Shinchan_4'
         )
         if connection.is_connected():
             return connection
@@ -108,9 +108,9 @@ def create_connection():
     try:
         connection = mysql.connector.connect(
             host='localhost',
-            database='movie_db',
+            database='movie_review_system',
             user='root',
-            password='soorya'
+            password='Shinchan_4'
         )
         if connection.is_connected():
             return connection
